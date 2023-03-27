@@ -1,4 +1,5 @@
 /chat
+/bin/kuzcore
 
 *.o
 *.a
