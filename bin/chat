@@ -1,2 +1,3 @@
 #! /bin/bash
-./kuzcore -m models/$MODEL -i 
+source env.src
+./kuzcore -m models/$MODEL -i -r "|||"
