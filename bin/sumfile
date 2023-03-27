@@ -1,0 +1,6 @@
+#! /bin/bash
+source env.src
+./kuzcore -p "Write a summary of this file named $1. These are the file contents: `cat $1`" -m models/$MODEL > out
+echo ""
+echo "output:"
+cat out

@@ -192,7 +192,7 @@ clean:
 	rm -f *.o main quantize
 
 chat: chat.cpp ggml.o utils.o
-	$(CXX) $(CXXFLAGS) chat.cpp ggml.o utils.o -o chat $(LDFLAGS)
+	$(CXX) $(CXXFLAGS) chat.cpp ggml.o utils.o -o bin/kuzcore $(LDFLAGS)
 
 chat_mac: chat.cpp ggml.c utils.cpp
 	$(CC)  $(CFLAGS)   -c ggml.c -o ggml_x86.o -target x86_64-apple-macos

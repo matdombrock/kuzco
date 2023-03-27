@@ -1,0 +1,2 @@
+#! /bin/bash
+./kuzcore -m models/$MODEL -i 

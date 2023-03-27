@@ -1,0 +1,7 @@
+#! /bin/bash
+source env.src
+./kuzcore -p "$1" -m models/$MODEL > out
+
+echo ""
+echo "output:"
+cat out
